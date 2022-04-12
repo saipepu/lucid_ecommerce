@@ -7,7 +7,6 @@
     "node": "v14.17.6"
   },
   "scripts": {
-    "build": "cd client_side && npm run build",
     "install-client": "cd client_side && npm install",
     "client": "cd client_side && npm start",
     "heroku-postbuild": "cd client_side && npm install && npm run build",
